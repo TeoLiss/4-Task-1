@@ -14,7 +14,7 @@ namespace _4_Task_1
             Console.WriteLine("Выведи матрицу из случайных чисел:");
             Console.WriteLine("Введи число строк:");
             int k = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введи число столбцов:");
+            Console.WriteLine("Введи число столбиков:");
             int j = int.Parse(Console.ReadLine());
             int[,] matrix;
             matrix = new int[k, j];
